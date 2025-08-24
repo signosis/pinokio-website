@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<title>Pinokio Repos</title>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<style>body{font-family:Arial,sans-serif;}</style>
+</head>
+<body>
+<h2>Pinokio Repos</h2>
+<table id="repos" class="display" style="width:100%"></table>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script>
+fetch('pinokio_repos.json').then(r=>r.json()).then(data=>{
+    $('#repos').DataTable({
+        data: data,
+        columns: Object.keys(data[0]).map(k=>({
+            title:k,
+            data:k,
+            render:(d)=>d && d.includes('github.com') ? `<a href="${d}" target="_blank">${d}</a>` : d
+        })),
+        pageLength:25
+    });
+});
+</script>
+<button id="darkToggle">🌙 Dark Mode</button>
+<script>
+document.getElementById('darkToggle').addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  const mode = document.body.classList.contains('dark') ? 'dark' : 'light';
+  localStorage.setItem('mode', mode);
+});
+
+// Load saved preference
+if (localStorage.getItem('mode') === 'dark') {
+  document.body.classList.add('dark');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Base styles */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 20px;
+  background: #f9fafb;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table styling via DataTables */
+table.dataTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dataTables_wrapper {
+  margin-top: 10px;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode */
+body.dark {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.dark a {
+  color: #60a5fa;
+}
+
+body.dark table.dataTable {
+  background: #2a2a2a;
+  color: #eee;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+/* Toggle button */
+#darkToggle {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  padding: 6px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+#darkToggle:hover {
+  background: #1e40af;
+}
