@@ -1,5 +1,4 @@
-# Create a merged, non-interactive GitHub Actions–friendly script
-merged_script = r'''#!/usr/bin/env python3
+#!/usr/bin/env python3
 import os
 import time
 import base64
@@ -355,9 +354,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-'''
-# Write to file
-with open('/mnt/data/pinokio_scraper_merged.py', 'w', encoding='utf-8') as f:
-    f.write(merged_script)
-
-print("Created /mnt/data/pinokio_scraper_merged.py")
