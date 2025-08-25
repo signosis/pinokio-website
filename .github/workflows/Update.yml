@@ -46,7 +46,7 @@ jobs:
           XLSX_FILE: "pinokio_repos.xlsx"
           JSON_FILE: "docs/data.json"
         run: |
-          python pinokio_scraper.py              # <-- if you kept the merged script as this filename
+          python pinokio_scraper_2.py              # <-- if you kept the merged script as this filename
 
       - name: Upload artifacts (csv/xlsx/json)
         uses: actions/upload-artifact@v4
