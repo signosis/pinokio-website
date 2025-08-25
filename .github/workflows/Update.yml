@@ -11,8 +11,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    steps:
+    outputs:
+      artifact-name: ${{ steps.upload-artifact.outputs.artifact-name }}
+   steps:
     - name: Checkout repo
       uses: actions/checkout@v3
 
@@ -30,18 +31,23 @@ jobs:
           ${{ runner.os }}-pip-
 
     - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+      run: pip install -r requirements.txt
 
     - name: Run scraper
       env:
         GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
       run: python pinokio_scraper.py
+      
+      - name: Upload artifact
+        id: upload-artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs
 
-    - name: Commit updated data.json
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add docs/data.json
-        git commit -m "Update data.json [skip ci]" || echo "No changes to commit"
-        git push
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+
