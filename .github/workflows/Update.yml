@@ -1,35 +1,37 @@
-name: Update Pinokio Site
+name: Update Pinokio Data
+
 on:
   schedule:
-    - cron: '0 5 * * *' # runs every day at 05:00 UTC
-  workflow_dispatch:
+    - cron: "0 6 * * 0"   # every Sunday at 06:00 UTC
+  workflow_dispatch:       # allow manual trigger
+  push:
+    paths:
+      - "pinokio_scraper.py"   # only runs if you update the script itself
 
 jobs:
-  update_site:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-     with:
-        python-version: '3.11'
+    - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install -r requirements.txt
 
-      - name: Run Pinokio fetch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/pinokio_fetch.py
+    - name: Run scraper
+      env:
+        GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+      run: python pinokio_scraper.py
 
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add site/
-          git commit -m "Update Pinokio site" || echo "No changes"
-          git push
+    - name: Commit updated data.json
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add docs/data.json
+        git commit -m "Update data.json [skip ci]" || echo "No changes to commit"
+        git push
