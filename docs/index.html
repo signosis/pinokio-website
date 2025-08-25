@@ -12,6 +12,7 @@
 <table id="repos" class="display" style="width:100%"></table>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="data.json"></script> <!-- (if you need JSON inline) -->
 <script>
 fetch('pinokio_repos.json').then(r=>r.json()).then(data=>{
     $('#repos').DataTable({
