@@ -9,7 +9,7 @@ import re
 PINOKIO_ORG = "pinokiofactory"
 DB_PATH = "pinokio.db"
 OUT_JSON = "docs/data.json"
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # optional (from repo secrets)
+GITHUB_TOKEN = os.getenv("GH_TOKEN")  # matches what you set in workflow env
 
 # Headers for API calls
 headers = {"Accept": "application/vnd.github.v3+json"}
