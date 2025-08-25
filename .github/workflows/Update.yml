@@ -3,10 +3,12 @@ name: Update Pinokio Data
 on:
   schedule:
     - cron: "0 6 * * 0"   # every Sunday at 06:00 UTC
-  workflow_dispatch:       # allow manual trigger
+  workflow_dispatch:
   push:
     paths:
-      - "pinokio_scraper_2.py"
+      - "pinokio_scraper_2.py"         # <-- make sure this matches your script name
+      - "requirements.txt"
+      - ".github/workflows/**"
 
 jobs:
   build:
@@ -14,38 +16,55 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Optional: cache the sqlite DB so we don't re-hit upstreams unnecessarily
+      - name: Cache DB
+        uses: actions/cache@v4
+        with:
+          path: pinokio.db
+          key: pinokio-db-${{ github.run_id }}
+          restore-keys: |
+            pinokio-db-
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Cache pip dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
+      - name: Install deps
         run: pip install -r requirements.txt
 
       - name: Run scraper
         env:
-          GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
-        run: python pinokio_scraper.py
+          GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}   # or secrets.GH_TOKEN — keep your secret name, the script reads GH_TOKEN
+          PINOKIO_ORG: pinokiofactory            # change if needed
+          REFRESH: "0"                           # set "1" to force a full re-scan
+          DB_FILE: "pinokio.db"
+          CSV_FILE: "pinokio_repos.csv"
+          XLSX_FILE: "pinokio_repos.xlsx"
+          JSON_FILE: "docs/data.json"
+        run: |
+          python pinokio_scraper.py              # <-- if you kept the merged script as this filename
 
-      - name: Commit updated data.json if changed
+      - name: Upload artifacts (csv/xlsx/json)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pinokio-data
+          path: |
+            pinokio_repos.csv
+            pinokio_repos.xlsx
+            docs/data.json
+
+      - name: Commit updated outputs if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet docs/data.json; then
-            echo "No changes to data.json, skipping commit."
+          git add docs/data.json pinokio_repos.csv pinokio_repos.xlsx || true
+          if git diff --cached --quiet; then
+            echo "No changes to outputs, skipping commit."
           else
-            git add docs/data.json
-            git commit -m "Update data.json [skip ci]"
+            git commit -m "Update Pinokio data [skip ci]"
             git push
           fi
