@@ -11,44 +11,36 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      artifact-name: ${{ steps.upload-artifact.outputs.artifact-name }}
-   steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    - name: Cache pip dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Run scraper
-      env:
-        GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
-      run: python pinokio_scraper.py
-      
-      - name: Upload artifact
-        id: upload-artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          path: docs
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+        run: python pinokio_scraper.py
+
       - name: Commit updated data.json if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      
-          # Check if data.json changed
           if git diff --quiet docs/data.json; then
             echo "No changes to data.json, skipping commit."
           else
@@ -56,11 +48,3 @@ jobs:
             git commit -m "Update data.json [skip ci]"
             git push
           fi
-    
-  deploy-pages:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
-
