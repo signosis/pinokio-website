@@ -43,7 +43,20 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: docs
-
+      - name: Commit updated data.json if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+          # Check if data.json changed
+          if git diff --quiet docs/data.json; then
+            echo "No changes to data.json, skipping commit."
+          else
+            git add docs/data.json
+            git commit -m "Update data.json [skip ci]"
+            git push
+          fi
+    
   deploy-pages:
     needs: build
     runs-on: ubuntu-latest
