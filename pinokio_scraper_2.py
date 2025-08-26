@@ -68,7 +68,42 @@ def init_db(db_path: str) -> sqlite3.Connection:
     """)
     conn.commit()
     return conn
+    
+def migrate_schema(conn: sqlite3.Connection) -> None:
+    cur = conn.cursor()
+    # Inspect existing columns
+    cur.execute("PRAGMA table_info(repos)")
+    cols = {row[1] for row in cur.fetchall()}
 
+    # Columns we expect in current schema
+    expected = [
+        ("description", "TEXT"),
+        ("html_url", "TEXT"),
+        ("created_at", "TEXT"),
+        ("updated_at", "TEXT"),
+        ("pushed_at", "TEXT"),
+        ("open_issues", "INTEGER"),
+        ("upstream_name", "TEXT"),
+        ("upstream_url", "TEXT"),
+        ("upstream_created_at", "TEXT"),
+        ("upstream_updated_at", "TEXT"),
+        ("upstream_open_issues", "INTEGER"),
+        ("last_checked", "TEXT"),
+    ]
+
+    for col, typ in expected:
+        if col not in cols:
+            cur.execute(f"ALTER TABLE repos ADD COLUMN {col} {typ}")
+
+    # Ensure api_usage exists (older DBs may not have it)
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS api_usage (
+            last_run TEXT,
+            calls_used INTEGER,
+            calls_remaining INTEGER
+        )
+    """)
+    conn.commit()
 # ================================
 # API helpers with rate handling
 # ================================
@@ -246,13 +281,14 @@ def export_xlsx(rows: List[Dict[str, Any]], path: str) -> None:
         ws.column_dimensions[col_letter].width = min(max_len + 2, 80)
     wb.save(path)
     print(f"✅ XLSX saved: {path}")
-
+   
 def export_json(rows: List[Dict[str, Any]], path: str) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    d = os.path.dirname(path)
+    if d:
+        os.makedirs(d, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(rows, f, indent=2, ensure_ascii=False)
     print(f"✅ JSON saved: {path}")
-
 # ================================
 # Main
 # ================================
@@ -262,6 +298,7 @@ def main() -> None:
     print(f"[rate-limit] limit={rl['limit']} remaining={rl['remaining']} reset={reset_dt.isoformat()}")
 
     conn = init_db(DB_FILE)
+    migrate_schema(conn)   # <-- add this line
     cur = conn.cursor()
 
     repos = list_org_repos(PINOKIO_ORG)
