@@ -40,7 +40,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
           PINOKIO_ORG: pinokiofactory
-          REFRESH: "1"                   # <-- first run only
+          REFRESH: "0"                   # <-- first run only
           DB_FILE: "pinokio.db"
           CSV_FILE: "pinokio_repos.csv"
           XLSX_FILE: "pinokio_repos.xlsx"
