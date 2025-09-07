@@ -214,7 +214,7 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/autogpt",
     "created_at": "2024-07-19T14:00:12Z",
-    "updated_at": "2025-04-08T08:57:50Z",
+    "updated_at": "2025-09-03T18:51:19Z",
     "pushed_at": "2024-09-11T05:57:21Z",
     "open_issues": 3,
     "upstream_name": "",
@@ -704,14 +704,14 @@
     "description": "Pinokio Installer for Applio",
     "html_url": "https://github.com/pinokiofactory/applio",
     "created_at": "2024-09-13T18:29:14Z",
-    "updated_at": "2025-07-04T22:17:49Z",
-    "pushed_at": "2025-04-04T03:23:37Z",
+    "updated_at": "2025-09-01T17:52:31Z",
+    "pushed_at": "2025-09-01T17:52:27Z",
     "open_issues": 0,
     "upstream_name": "IAHispano/Applio",
     "upstream_url": "https://github.com/IAHispano/Applio",
     "upstream_created_at": "2023-08-07T22:42:16Z",
-    "upstream_updated_at": "2025-08-25T16:16:10Z",
-    "upstream_open_issues": 13
+    "upstream_updated_at": "2025-09-06T22:22:17Z",
+    "upstream_open_issues": 18
   },
   {
     "name": "liveportrait",
@@ -1068,14 +1068,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/openaudio",
     "created_at": "2024-11-02T08:47:31Z",
-    "updated_at": "2025-08-25T15:11:49Z",
+    "updated_at": "2025-09-02T01:06:16Z",
     "pushed_at": "2025-06-06T21:48:46Z",
     "open_issues": 6,
     "upstream_name": "fishaudio/fish-speech",
     "upstream_url": "https://github.com/fishaudio/fish-speech",
     "upstream_created_at": "2023-10-10T03:16:51Z",
-    "upstream_updated_at": "2025-08-26T00:13:06Z",
-    "upstream_open_issues": 35
+    "upstream_updated_at": "2025-09-06T23:51:01Z",
+    "upstream_open_issues": 34
   },
   {
     "name": "mochi",
@@ -1138,14 +1138,14 @@
     "description": "(NVIDIA) FramePack is a next-frame (next-frame-section) prediction neural network structure that generates videos progressively.",
     "html_url": "https://github.com/pinokiofactory/Frame-Pack",
     "created_at": "2025-04-17T11:43:03Z",
-    "updated_at": "2025-05-23T10:45:41Z",
-    "pushed_at": "2025-05-23T10:45:36Z",
+    "updated_at": "2025-09-05T21:07:56Z",
+    "pushed_at": "2025-09-05T21:07:52Z",
     "open_issues": 7,
     "upstream_name": "lllyasviel/FramePack",
     "upstream_url": "https://github.com/lllyasviel/FramePack",
     "upstream_created_at": "2025-04-12T14:45:22Z",
-    "upstream_updated_at": "2025-08-26T00:58:58Z",
-    "upstream_open_issues": 438
+    "upstream_updated_at": "2025-09-07T06:01:03Z",
+    "upstream_open_issues": 441
   },
   {
     "name": "stable-diffusion-webui-forge",
@@ -1194,13 +1194,13 @@
     "description": "Creative Image Enhancer/Upscaler. Powered By Refiners.  8GB VRAM | 10GB Install",
     "html_url": "https://github.com/pinokiofactory/clarity-refiners-ui",
     "created_at": "2024-11-12T07:03:48Z",
-    "updated_at": "2025-08-06T06:12:42Z",
+    "updated_at": "2025-09-03T13:36:41Z",
     "pushed_at": "2025-05-30T19:33:26Z",
-    "open_issues": 8,
+    "open_issues": 9,
     "upstream_name": "philz1337x/clarity-upscaler",
     "upstream_url": "https://github.com/philz1337x/clarity-upscaler",
     "upstream_created_at": "2024-03-15T15:21:40Z",
-    "upstream_updated_at": "2025-08-25T10:09:13Z",
+    "upstream_updated_at": "2025-09-07T03:14:15Z",
     "upstream_open_issues": 18
   },
   {
@@ -1264,13 +1264,13 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/ditto",
     "created_at": "2024-10-15T21:29:32Z",
-    "updated_at": "2025-02-07T15:30:11Z",
+    "updated_at": "2025-09-03T08:30:00Z",
     "pushed_at": "2024-10-15T22:47:07Z",
     "open_issues": 0,
     "upstream_name": "yoheinakajima/ditto",
     "upstream_url": "https://github.com/yoheinakajima/ditto",
     "upstream_created_at": "2024-10-15T19:45:13Z",
-    "upstream_updated_at": "2025-08-25T19:07:59Z",
+    "upstream_updated_at": "2025-09-03T08:30:00Z",
     "upstream_open_issues": 8
   },
   {
