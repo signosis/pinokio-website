@@ -6,20 +6,20 @@ MMAudio,,https://github.com/pinokiofactory/MMAudio,2024-12-15T04:45:43Z,2025-12-
 MatAnyone,"[NVIDIA ONLY] ""Stable Video Matting with Consistent Memory Propagation""   9GB install, 9GB+ VRAM",https://github.com/pinokiofactory/MatAnyone,2025-02-21T04:25:40Z,2025-12-02T21:43:31Z,2025-12-02T21:43:28Z,0,,,,,
 Nari-Dia-TTS,Nari Dia is a powerful text-to-speech (TTS) application based on the Dia-1.6B model from Nari Labs. This application allows you to convert text into natural-sounding speech with various customization options.,https://github.com/pinokiofactory/Nari-Dia-TTS,2025-04-22T11:51:10Z,2025-12-01T21:07:49Z,2025-04-22T12:03:27Z,0,,,,,
 StreamDiffusion,StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation,https://github.com/pinokiofactory/StreamDiffusion,2024-11-06T22:32:16Z,2025-03-23T00:07:51Z,2025-03-23T00:07:47Z,0,,,,,
-StyleTTS2_Studio,Build your own StyleTTS 2 Voice!,https://github.com/pinokiofactory/StyleTTS2_Studio,2024-12-25T23:02:32Z,2025-12-15T14:13:11Z,2025-12-02T21:58:14Z,0,,,,,
+StyleTTS2_Studio,Build your own StyleTTS 2 Voice!,https://github.com/pinokiofactory/StyleTTS2_Studio,2024-12-25T23:02:32Z,2026-01-04T05:07:11Z,2025-12-02T21:58:14Z,0,,,,,
 TRELLIS,A pinokio script for https://github.com/microsoft/TRELLIS,https://github.com/pinokiofactory/TRELLIS,2024-12-08T13:33:11Z,2025-10-06T09:31:47Z,2025-06-08T06:02:31Z,7,,,,,
 accdiffusion,,https://github.com/pinokiofactory/accdiffusion,2024-07-31T15:54:10Z,2024-07-31T15:55:00Z,2024-07-31T15:54:56Z,0,,,,,
 ai-video-composer,,https://github.com/pinokiofactory/ai-video-composer,2024-11-26T00:57:07Z,2025-12-02T22:14:39Z,2025-12-02T22:14:35Z,3,,,,,
 applio-old,,https://github.com/pinokiofactory/applio-old,2024-06-17T22:35:00Z,2024-09-12T13:25:42Z,2024-06-24T21:39:45Z,1,,,,,
 artist,,https://github.com/pinokiofactory/artist,2024-07-30T14:02:34Z,2025-04-23T21:33:35Z,2025-04-23T21:33:31Z,2,,,,,
 augmentoolkit,,https://github.com/pinokiofactory/augmentoolkit,2024-05-16T12:39:35Z,2024-10-19T17:14:02Z,2024-08-15T01:13:13Z,2,,,,,
-aura-sr-upscaler,,https://github.com/pinokiofactory/aura-sr-upscaler,2024-07-31T12:18:57Z,2025-05-02T06:38:24Z,2025-04-03T03:55:09Z,2,,,,,
+aura-sr-upscaler,,https://github.com/pinokiofactory/aura-sr-upscaler,2024-07-31T12:18:57Z,2025-12-29T13:21:44Z,2025-04-03T03:55:09Z,2,,,,,
 autogpt,,https://github.com/pinokiofactory/autogpt,2024-07-19T14:00:12Z,2025-12-15T20:38:43Z,2024-09-11T05:57:21Z,3,,,,,
 controlyourself,,https://github.com/pinokiofactory/controlyourself,2024-11-26T09:11:44Z,2024-11-26T11:00:33Z,2024-11-26T11:00:30Z,0,,,,,
 diffrhythm,,https://github.com/pinokiofactory/diffrhythm,2025-03-04T22:13:30Z,2025-12-07T19:57:51Z,2025-12-05T01:50:29Z,14,,,,,
 diffusers-image-fill,,https://github.com/pinokiofactory/diffusers-image-fill,2024-09-27T17:14:28Z,2025-12-03T13:16:26Z,2025-04-15T20:43:01Z,3,,,,,
 dough,,https://github.com/pinokiofactory/dough,2024-07-18T11:39:16Z,2024-07-19T12:30:00Z,2024-08-14T20:21:12Z,0,,,,,
-e2-f5-tts,,https://github.com/pinokiofactory/e2-f5-tts,2024-10-13T17:23:57Z,2025-12-20T20:47:51Z,2025-12-20T20:47:38Z,7,,,,,
+e2-f5-tts,,https://github.com/pinokiofactory/e2-f5-tts,2024-10-13T17:23:57Z,2025-12-30T08:02:35Z,2025-12-20T20:47:38Z,7,,,,,
 errortest,,https://github.com/pinokiofactory/errortest,2024-11-12T02:01:21Z,2024-11-16T03:20:20Z,2024-11-16T03:20:16Z,0,,,,,
 facepoke,,https://github.com/pinokiofactory/facepoke,2024-10-07T13:28:53Z,2025-12-04T03:24:42Z,2025-12-04T03:24:37Z,3,,,,,
 factory,,https://github.com/pinokiofactory/factory,2024-08-27T21:49:02Z,2024-08-27T21:49:02Z,2024-08-27T21:49:02Z,8,,,,,
@@ -42,9 +42,9 @@ pcm,,https://github.com/pinokiofactory/pcm,2024-06-05T15:35:00Z,2025-03-20T03:06
 photomaker2,,https://github.com/pinokiofactory/photomaker2,2024-07-22T16:01:32Z,2025-11-17T22:06:21Z,2025-11-17T22:06:16Z,0,,,,,
 rc-stableaudio,,https://github.com/pinokiofactory/rc-stableaudio,2024-07-29T14:44:01Z,2025-11-03T21:06:34Z,2025-03-17T00:05:11Z,0,,,,,
 sd35,,https://github.com/pinokiofactory/sd35,2024-10-22T19:23:06Z,2024-10-22T19:50:14Z,2024-10-22T19:50:11Z,0,,,,,
-sillytavern,,https://github.com/pinokiofactory/sillytavern,2024-05-21T11:58:31Z,2025-11-26T23:36:51Z,2025-11-26T23:36:47Z,3,,,,,
+sillytavern,,https://github.com/pinokiofactory/sillytavern,2024-05-21T11:58:31Z,2025-12-29T07:25:21Z,2025-11-26T23:36:47Z,3,,,,,
 stable-fast-3d,,https://github.com/pinokiofactory/stable-fast-3d,2024-08-01T18:33:57Z,2024-08-07T20:21:37Z,2024-08-01T18:34:06Z,0,,,,,
-stableaudio,,https://github.com/pinokiofactory/stableaudio,2024-06-05T20:15:59Z,2025-11-03T21:07:18Z,2025-03-17T00:31:10Z,0,,,,,
+stableaudio,,https://github.com/pinokiofactory/stableaudio,2024-06-05T20:15:59Z,2025-12-30T00:17:54Z,2025-03-17T00:31:10Z,0,,,,,
 video-background-removal,,https://github.com/pinokiofactory/video-background-removal,2024-10-11T16:00:13Z,2025-01-23T21:17:20Z,2024-10-11T17:35:54Z,0,,,,,
 y,,https://github.com/pinokiofactory/y,2024-05-20T15:06:00Z,2024-05-20T15:06:01Z,2024-05-20T15:06:01Z,1,,,,,
 z-image-turbo,,https://github.com/pinokiofactory/z-image-turbo,2025-12-01T15:28:39Z,2025-12-01T19:45:36Z,2025-12-01T15:28:52Z,0,,,,,
@@ -69,16 +69,16 @@ echomimic2,,https://github.com/pinokiofactory/echomimic2,2024-11-24T07:52:04Z,20
 macOS-use,We Make Mac apps accessible for AI agents,https://github.com/pinokiofactory/macOS-use,2025-02-18T16:54:37Z,2025-11-04T13:06:11Z,2025-04-01T04:14:59Z,0,browser-use/macOS-use,https://github.com/browser-use/macOS-use,2025-01-23T00:35:15Z,2025-11-14T12:34:29Z,16
 browser-use,,https://github.com/pinokiofactory/browser-use,2025-01-19T21:55:50Z,2025-11-19T15:34:36Z,2025-04-01T04:25:12Z,1,browser-use/web-ui,https://github.com/browser-use/web-ui,2025-01-02T01:29:44Z,2025-11-22T16:44:52Z,299
 uno,,https://github.com/pinokiofactory/uno,2025-04-10T18:31:57Z,2025-12-02T20:55:29Z,2025-12-02T20:55:25Z,2,bytedance/UNO,https://github.com/bytedance/UNO,2025-04-01T13:25:11Z,2025-12-04T05:12:09Z,28
-comfy,,https://github.com/pinokiofactory/comfy,2024-08-13T19:47:18Z,2025-12-12T10:04:57Z,2025-12-02T21:35:15Z,5,comfyanonymous/ComfyUI,https://github.com/comfyanonymous/ComfyUI,2023-01-17T03:15:56Z,2025-12-14T06:37:57Z,3320
-Hunyuan3d-2-lowvram,,https://github.com/pinokiofactory/Hunyuan3d-2-lowvram,2025-01-25T04:44:25Z,2025-12-27T20:44:54Z,2025-12-27T20:44:51Z,13,deepbeepmeep/Hunyuan3D-2GP,https://github.com/deepbeepmeep/Hunyuan3D-2GP,2025-01-22T01:50:03Z,2025-12-28T02:48:43Z,18
-hunyuanvideo,,https://github.com/pinokiofactory/hunyuanvideo,2024-12-11T01:55:53Z,2025-12-02T20:58:59Z,2025-12-02T20:58:56Z,2,deepbeepmeep/HunyuanVideoGP,https://github.com/deepbeepmeep/HunyuanVideoGP,2024-12-10T18:34:42Z,2025-12-03T13:16:36Z,13
-wan,,https://github.com/pinokiofactory/wan,2025-03-03T17:32:45Z,2025-12-23T04:03:27Z,2025-12-04T20:14:06Z,13,deepbeepmeep/Wan2GP,https://github.com/deepbeepmeep/Wan2GP,2025-02-27T23:52:36Z,2025-12-28T05:51:47Z,512
+comfy,,https://github.com/pinokiofactory/comfy,2024-08-13T19:47:18Z,2025-12-30T00:21:19Z,2025-12-02T21:35:15Z,5,comfyanonymous/ComfyUI,https://github.com/comfyanonymous/ComfyUI,2023-01-17T03:15:56Z,2026-01-04T06:37:34Z,3415
+Hunyuan3d-2-lowvram,,https://github.com/pinokiofactory/Hunyuan3d-2-lowvram,2025-01-25T04:44:25Z,2025-12-30T00:10:19Z,2025-12-27T20:44:51Z,13,deepbeepmeep/Hunyuan3D-2GP,https://github.com/deepbeepmeep/Hunyuan3D-2GP,2025-01-22T01:50:03Z,2025-12-31T09:45:40Z,18
+hunyuanvideo,,https://github.com/pinokiofactory/hunyuanvideo,2024-12-11T01:55:53Z,2025-12-30T00:20:41Z,2025-12-02T20:58:56Z,2,deepbeepmeep/HunyuanVideoGP,https://github.com/deepbeepmeep/HunyuanVideoGP,2024-12-10T18:34:42Z,2025-12-28T22:44:57Z,13
+wan,,https://github.com/pinokiofactory/wan,2025-03-03T17:32:45Z,2025-12-30T00:17:22Z,2025-12-04T20:14:06Z,13,deepbeepmeep/Wan2GP,https://github.com/deepbeepmeep/Wan2GP,2025-02-27T23:52:36Z,2026-01-04T03:02:02Z,524
 yue,,https://github.com/pinokiofactory/yue,2025-01-29T11:22:39Z,2025-12-02T21:56:08Z,2025-12-02T21:56:04Z,7,deepbeepmeep/YuEGP,https://github.com/deepbeepmeep/YuEGP,2025-01-28T07:23:51Z,2025-12-06T23:11:18Z,21
 janus,,https://github.com/pinokiofactory/janus,2025-01-27T18:23:47Z,2025-01-28T02:37:49Z,2025-01-28T02:37:46Z,0,deepseek-ai/Janus,https://github.com/deepseek-ai/Janus,2024-10-18T03:48:16Z,2025-11-15T15:45:09Z,177
 diamond,,https://github.com/pinokiofactory/diamond,2024-10-12T15:37:19Z,2025-12-02T23:46:53Z,2025-12-02T23:46:49Z,0,eloialonso/diamond,https://github.com/eloialonso/diamond,2024-05-19T22:31:40Z,2025-12-06T01:55:14Z,7
 AllTalk-TTS,,https://github.com/pinokiofactory/AllTalk-TTS,2025-02-05T16:24:30Z,2025-04-05T16:19:34Z,2025-03-29T16:44:51Z,1,erew123/alltalk_tts,https://github.com/erew123/alltalk_tts,2023-12-08T09:35:19Z,2025-11-15T23:50:46Z,71
 oasis,,https://github.com/pinokiofactory/oasis,2024-10-31T23:24:32Z,2024-10-31T23:47:38Z,2024-10-31T23:47:35Z,0,etched-ai/open-oasis,https://github.com/etched-ai/open-oasis,2024-10-31T09:10:45Z,2025-11-14T05:41:47Z,30
-openaudio,,https://github.com/pinokiofactory/openaudio,2024-11-02T08:47:31Z,2025-12-27T18:38:46Z,2025-12-02T20:35:50Z,6,fishaudio/fish-speech,https://github.com/fishaudio/fish-speech,2023-10-10T03:16:51Z,2025-12-28T05:46:28Z,20
+openaudio,,https://github.com/pinokiofactory/openaudio,2024-11-02T08:47:31Z,2026-01-03T13:47:18Z,2026-01-03T13:47:14Z,6,fishaudio/fish-speech,https://github.com/fishaudio/fish-speech,2023-10-10T03:16:51Z,2026-01-04T06:06:33Z,21
 mochi,,https://github.com/pinokiofactory/mochi,2024-10-23T18:51:07Z,2024-10-29T03:03:08Z,2024-10-29T03:03:04Z,0,genmoai/mochi,https://github.com/genmoai/mochi,2024-09-11T02:55:33Z,2025-11-15T23:14:45Z,58
 instantir,,https://github.com/pinokiofactory/instantir,2024-11-08T08:05:55Z,2025-12-02T22:52:18Z,2025-12-02T22:52:15Z,1,instantX-research/InstantIR,https://github.com/instantX-research/InstantIR,2024-10-20T03:17:01Z,2025-11-26T08:31:35Z,8
 whisper-webui,Pinokio Installer for Whisper-Webui,https://github.com/pinokiofactory/whisper-webui,2024-09-21T20:42:20Z,2025-12-18T21:08:21Z,2025-12-18T21:08:18Z,2,jhj0517/Whisper-WebUI,https://github.com/jhj0517/Whisper-WebUI,2023-03-02T13:42:01Z,2025-12-20T09:53:51Z,138
@@ -86,13 +86,13 @@ pyramidflow,,https://github.com/pinokiofactory/pyramidflow,2024-11-16T08:35:22Z,
 Frame-Pack,(NVIDIA) FramePack is a next-frame (next-frame-section) prediction neural network structure that generates videos progressively.,https://github.com/pinokiofactory/Frame-Pack,2025-04-17T11:43:03Z,2025-12-18T10:04:25Z,2025-12-18T10:04:19Z,6,lllyasviel/FramePack,https://github.com/lllyasviel/FramePack,2025-04-12T14:45:22Z,2025-12-20T22:41:55Z,472
 stable-diffusion-webui-forge,,https://github.com/pinokiofactory/stable-diffusion-webui-forge,2024-08-12T12:38:49Z,2025-12-22T18:18:40Z,2025-11-17T01:56:27Z,2,lllyasviel/stable-diffusion-webui-forge,https://github.com/lllyasviel/stable-diffusion-webui-forge,2024-01-14T11:39:30Z,2025-12-28T02:00:05Z,1126
 omniparser,,https://github.com/pinokiofactory/omniparser,2024-10-26T06:04:17Z,2024-10-28T04:49:07Z,2024-10-26T08:03:10Z,0,microsoft/OmniParser,https://github.com/microsoft/OmniParser,2024-09-20T05:18:18Z,2025-11-16T06:25:49Z,225
-vibevoice-realtime,,https://github.com/pinokiofactory/vibevoice-realtime,2025-12-04T21:57:09Z,2025-12-28T01:46:43Z,2025-12-22T22:00:09Z,1,microsoft/VibeVoice,https://github.com/microsoft/VibeVoice,2025-08-25T13:24:01Z,2025-12-28T05:27:20Z,68
+vibevoice-realtime,,https://github.com/pinokiofactory/vibevoice-realtime,2025-12-04T21:57:09Z,2026-01-02T21:12:38Z,2025-12-22T22:00:09Z,1,microsoft/VibeVoice,https://github.com/microsoft/VibeVoice,2025-08-25T13:24:01Z,2026-01-04T06:30:59Z,68
 dia,,https://github.com/pinokiofactory/dia,2025-04-22T14:57:53Z,2025-12-07T19:55:02Z,2025-12-07T19:54:59Z,4,nari-labs/dia,https://github.com/nari-labs/dia,2025-04-19T07:15:57Z,2025-12-14T04:00:35Z,87
-clarity-refiners-ui,Creative Image Enhancer/Upscaler. Powered By Refiners.  8GB VRAM | 10GB Install,https://github.com/pinokiofactory/clarity-refiners-ui,2024-11-12T07:03:48Z,2025-12-10T13:18:06Z,2025-12-02T22:18:28Z,9,philz1337x/clarity-upscaler,https://github.com/philz1337x/clarity-upscaler,2024-03-15T15:21:40Z,2025-12-14T05:17:46Z,18
+clarity-refiners-ui,Creative Image Enhancer/Upscaler. Powered By Refiners.  8GB VRAM | 10GB Install,https://github.com/pinokiofactory/clarity-refiners-ui,2024-11-12T07:03:48Z,2026-01-02T20:07:27Z,2025-12-02T22:18:28Z,9,philz1337x/clarity-upscaler,https://github.com/philz1337x/clarity-upscaler,2024-03-15T15:21:40Z,2026-01-03T09:04:39Z,18
 Allegro-txt2vid,Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input.,https://github.com/pinokiofactory/Allegro-txt2vid,2024-10-25T06:33:03Z,2024-11-05T23:56:50Z,2024-11-05T23:56:47Z,1,rhymes-ai/Allegro,https://github.com/rhymes-ai/Allegro,2024-10-16T04:04:15Z,2025-11-07T08:32:13Z,20
 Allegro-txt2vid-install,"Allegro-txt2vid. WARNING: takes a long time to generate a result, 1hr on a 3090. 12GB+ VRAM | 32GB+ RAM | 30GB Download. Check the README for details",https://github.com/pinokiofactory/Allegro-txt2vid-install,2024-10-27T14:58:05Z,2025-12-04T05:36:24Z,2025-12-04T05:36:20Z,0,rhymes-ai/Allegro,https://github.com/rhymes-ai/Allegro,2024-10-16T04:04:15Z,2025-12-06T00:53:45Z,20
 RuinedFooocus,"(NVIDIA ONLY) Forget everything you thought you knew about AI art generation - RuinedFooocus is here to completely reinvent the game! This groundbreaking image creator combines the best aspects of Stable Diffusion and Midjourney into one seamless, cutting-edge experience. ",https://github.com/pinokiofactory/RuinedFooocus,2025-04-22T14:09:26Z,2025-10-30T19:53:32Z,2025-10-30T19:53:29Z,0,runew0lf/RuinedFooocus,https://github.com/runew0lf/RuinedFooocus,2023-08-16T09:20:46Z,2025-11-15T08:55:10Z,23
 bolt,,https://github.com/pinokiofactory/bolt,2024-10-30T04:46:10Z,2025-12-06T21:59:36Z,2025-12-06T21:59:33Z,17,stackblitz-labs/bolt.diy,https://github.com/stackblitz-labs/bolt.diy,2024-10-13T18:40:54Z,2025-12-07T05:24:38Z,69
 ditto,,https://github.com/pinokiofactory/ditto,2024-10-15T21:29:32Z,2025-11-06T00:05:04Z,2024-10-15T22:47:07Z,0,yoheinakajima/ditto,https://github.com/yoheinakajima/ditto,2024-10-15T19:45:13Z,2025-11-11T07:07:11Z,8
-cogstudio,,https://github.com/pinokiofactory/cogstudio,2024-09-20T10:46:17Z,2025-12-24T12:00:38Z,2025-12-18T22:30:30Z,37,zai-org/CogVideo,https://github.com/zai-org/CogVideo,2022-05-29T06:46:18Z,2025-12-28T02:24:25Z,104
-cogvideo,,https://github.com/pinokiofactory/cogvideo,2024-08-30T10:13:02Z,2025-05-16T03:00:05Z,2025-03-16T23:56:15Z,1,zai-org/CogVideo,https://github.com/zai-org/CogVideo,2022-05-29T06:46:18Z,2025-11-16T05:56:36Z,102
+cogstudio,,https://github.com/pinokiofactory/cogstudio,2024-09-20T10:46:17Z,2026-01-04T00:47:26Z,2026-01-04T00:47:22Z,37,zai-org/CogVideo,https://github.com/zai-org/CogVideo,2022-05-29T06:46:18Z,2026-01-04T04:24:11Z,105
+cogvideo,,https://github.com/pinokiofactory/cogvideo,2024-08-30T10:13:02Z,2026-01-04T01:51:05Z,2026-01-04T01:51:01Z,1,zai-org/CogVideo,https://github.com/zai-org/CogVideo,2022-05-29T06:46:18Z,2026-01-04T04:24:11Z,105
