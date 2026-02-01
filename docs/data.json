@@ -718,13 +718,13 @@
     "description": "Tencent SongGeneration Studio MLX",
     "html_url": "https://github.com/pinokiofactory/SongGeneration-Studio-MLX",
     "created_at": "2026-01-17T09:12:39Z",
-    "updated_at": "2026-01-17T14:29:21Z",
-    "pushed_at": "2026-01-17T14:29:18Z",
+    "updated_at": "2026-01-31T15:36:48Z",
+    "pushed_at": "2026-01-31T15:36:45Z",
     "open_issues": 0,
     "upstream_name": "CharafChnioune/SongGeneration-Studio-MLX",
     "upstream_url": "https://github.com/CharafChnioune/SongGeneration-Studio-MLX",
     "upstream_created_at": "2026-01-16T21:45:05Z",
-    "upstream_updated_at": "2026-01-17T22:52:18Z",
+    "upstream_updated_at": "2026-01-31T16:23:34Z",
     "upstream_open_issues": 0
   },
   {
@@ -760,14 +760,14 @@
     "description": "Pinokio Installer for Applio",
     "html_url": "https://github.com/pinokiofactory/applio",
     "created_at": "2024-09-13T18:29:14Z",
-    "updated_at": "2025-12-19T04:34:35Z",
+    "updated_at": "2026-01-29T13:21:03Z",
     "pushed_at": "2025-12-19T04:34:32Z",
     "open_issues": 0,
     "upstream_name": "IAHispano/Applio",
     "upstream_url": "https://github.com/IAHispano/Applio",
     "upstream_created_at": "2023-08-07T22:42:16Z",
-    "upstream_updated_at": "2025-12-20T14:59:59Z",
-    "upstream_open_issues": 24
+    "upstream_updated_at": "2026-02-01T04:51:15Z",
+    "upstream_open_issues": 31
   },
   {
     "name": "liveportrait",
@@ -830,13 +830,13 @@
     "description": "🟢 NVIDIA ONLY – All-in-One TTS App with Kokoro, KittenTTS, Higgs audio, Chatterbox, Fish-Speech, F5 & index-tts & indextts2, Supports Conversation Mode & eBook-to-Audiobook. All features work across all engines in a unified interface except vibe voice which is it's own app panel.",
     "html_url": "https://github.com/pinokiofactory/Ultimate-TTS-Studio",
     "created_at": "2025-11-25T20:10:36Z",
-    "updated_at": "2026-01-21T16:57:23Z",
-    "pushed_at": "2026-01-05T22:06:28Z",
+    "updated_at": "2026-01-30T00:41:21Z",
+    "pushed_at": "2026-01-30T00:41:17Z",
     "open_issues": 0,
     "upstream_name": "SUP3RMASS1VE/Ultimate-TTS-Studio-SUP3R-Edition",
     "upstream_url": "https://github.com/SUP3RMASS1VE/Ultimate-TTS-Studio-SUP3R-Edition",
     "upstream_created_at": "2025-06-06T14:54:06Z",
-    "upstream_updated_at": "2026-01-25T02:33:03Z",
+    "upstream_updated_at": "2026-01-31T21:11:44Z",
     "upstream_open_issues": 23
   },
   {
@@ -984,14 +984,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/browser-use",
     "created_at": "2025-01-19T21:55:50Z",
-    "updated_at": "2025-11-19T15:34:36Z",
+    "updated_at": "2026-01-27T14:53:11Z",
     "pushed_at": "2025-04-01T04:25:12Z",
     "open_issues": 1,
     "upstream_name": "browser-use/web-ui",
     "upstream_url": "https://github.com/browser-use/web-ui",
     "upstream_created_at": "2025-01-02T01:29:44Z",
-    "upstream_updated_at": "2025-11-22T16:44:52Z",
-    "upstream_open_issues": 299
+    "upstream_updated_at": "2026-02-01T03:05:32Z",
+    "upstream_open_issues": 309
   },
   {
     "name": "uno",
@@ -1040,14 +1040,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/wan",
     "created_at": "2025-03-03T17:32:45Z",
-    "updated_at": "2026-01-18T21:13:14Z",
+    "updated_at": "2026-01-28T09:41:31Z",
     "pushed_at": "2026-01-14T23:51:12Z",
     "open_issues": 14,
     "upstream_name": "deepbeepmeep/Wan2GP",
     "upstream_url": "https://github.com/deepbeepmeep/Wan2GP",
     "upstream_created_at": "2025-02-27T23:52:36Z",
-    "upstream_updated_at": "2026-01-25T06:27:26Z",
-    "upstream_open_issues": 612
+    "upstream_updated_at": "2026-02-01T06:34:39Z",
+    "upstream_open_issues": 639
   },
   {
     "name": "yue",
@@ -1124,14 +1124,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/openaudio",
     "created_at": "2024-11-02T08:47:31Z",
-    "updated_at": "2026-01-03T13:47:18Z",
-    "pushed_at": "2026-01-03T13:47:14Z",
+    "updated_at": "2026-01-30T21:11:00Z",
+    "pushed_at": "2026-01-30T21:10:56Z",
     "open_issues": 6,
     "upstream_name": "fishaudio/fish-speech",
     "upstream_url": "https://github.com/fishaudio/fish-speech",
     "upstream_created_at": "2023-10-10T03:16:51Z",
-    "upstream_updated_at": "2026-01-04T06:06:33Z",
-    "upstream_open_issues": 21
+    "upstream_updated_at": "2026-02-01T01:25:30Z",
+    "upstream_open_issues": 19
   },
   {
     "name": "mochi",
@@ -1236,14 +1236,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/vibevoice-realtime",
     "created_at": "2025-12-04T21:57:09Z",
-    "updated_at": "2026-01-24T21:46:05Z",
+    "updated_at": "2026-02-01T06:38:32Z",
     "pushed_at": "2025-12-22T22:00:09Z",
     "open_issues": 1,
     "upstream_name": "microsoft/VibeVoice",
     "upstream_url": "https://github.com/microsoft/VibeVoice",
     "upstream_created_at": "2025-08-25T13:24:01Z",
-    "upstream_updated_at": "2026-01-25T06:33:29Z",
-    "upstream_open_issues": 83
+    "upstream_updated_at": "2026-02-01T06:53:32Z",
+    "upstream_open_issues": 87
   },
   {
     "name": "dia",
@@ -1348,14 +1348,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/cogstudio",
     "created_at": "2024-09-20T10:46:17Z",
-    "updated_at": "2026-01-13T11:25:28Z",
+    "updated_at": "2026-01-29T08:58:01Z",
     "pushed_at": "2026-01-04T00:47:22Z",
     "open_issues": 37,
     "upstream_name": "zai-org/CogVideo",
     "upstream_url": "https://github.com/zai-org/CogVideo",
     "upstream_created_at": "2022-05-29T06:46:18Z",
-    "upstream_updated_at": "2026-01-18T01:58:21Z",
-    "upstream_open_issues": 105
+    "upstream_updated_at": "2026-01-31T14:40:21Z",
+    "upstream_open_issues": 106
   },
   {
     "name": "cogvideo",
