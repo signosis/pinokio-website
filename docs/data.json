@@ -256,7 +256,7 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/diffusers-image-fill",
     "created_at": "2024-09-27T17:14:28Z",
-    "updated_at": "2025-12-03T13:16:26Z",
+    "updated_at": "2026-03-01T17:52:15Z",
     "pushed_at": "2025-04-15T20:43:01Z",
     "open_issues": 3,
     "upstream_name": "",
@@ -522,7 +522,7 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/omnigen",
     "created_at": "2024-10-23T18:24:35Z",
-    "updated_at": "2026-02-04T06:30:37Z",
+    "updated_at": "2026-03-07T20:08:42Z",
     "pushed_at": "2025-12-02T23:04:48Z",
     "open_issues": 4,
     "upstream_name": "",
@@ -746,14 +746,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/comfy",
     "created_at": "2024-08-13T19:47:18Z",
-    "updated_at": "2026-02-26T12:44:50Z",
+    "updated_at": "2026-03-06T10:06:31Z",
     "pushed_at": "2026-02-20T19:45:32Z",
     "open_issues": 7,
     "upstream_name": "Comfy-Org/ComfyUI",
     "upstream_url": "https://github.com/Comfy-Org/ComfyUI",
     "upstream_created_at": "2023-01-17T03:15:56Z",
-    "upstream_updated_at": "2026-03-01T06:49:49Z",
-    "upstream_open_issues": 3775
+    "upstream_updated_at": "2026-03-08T06:53:48Z",
+    "upstream_open_issues": 3796
   },
   {
     "name": "audiocraft_plus",
@@ -914,14 +914,14 @@
     "description": "Enhanced background remove and replace app built around BRIA-RMBG-2.0.  Low VRAM/RAM | 6GB Install",
     "html_url": "https://github.com/pinokiofactory/RMBG-2-Studio",
     "created_at": "2024-11-15T07:13:23Z",
-    "updated_at": "2026-02-26T00:56:36Z",
+    "updated_at": "2026-03-07T21:28:47Z",
     "pushed_at": "2025-12-02T22:50:55Z",
     "open_issues": 2,
     "upstream_name": "ZhengPeng7/BiRefNet",
     "upstream_url": "https://github.com/ZhengPeng7/BiRefNet",
     "upstream_created_at": "2022-08-17T09:13:39Z",
-    "upstream_updated_at": "2026-03-01T06:41:47Z",
-    "upstream_open_issues": 23
+    "upstream_updated_at": "2026-03-07T14:17:38Z",
+    "upstream_open_issues": 24
   },
   {
     "name": "zonos",
@@ -1026,13 +1026,13 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/Hunyuan3d-2-lowvram",
     "created_at": "2025-01-25T04:44:25Z",
-    "updated_at": "2026-01-18T02:36:25Z",
+    "updated_at": "2026-03-04T05:39:26Z",
     "pushed_at": "2025-12-27T20:44:51Z",
     "open_issues": 13,
     "upstream_name": "deepbeepmeep/Hunyuan3D-2GP",
     "upstream_url": "https://github.com/deepbeepmeep/Hunyuan3D-2GP",
     "upstream_created_at": "2025-01-22T01:50:03Z",
-    "upstream_updated_at": "2026-01-18T03:01:59Z",
+    "upstream_updated_at": "2026-03-04T19:04:33Z",
     "upstream_open_issues": 19
   },
   {
@@ -1054,14 +1054,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/wan",
     "created_at": "2025-03-03T17:32:45Z",
-    "updated_at": "2026-03-01T00:31:25Z",
+    "updated_at": "2026-03-07T20:45:48Z",
     "pushed_at": "2026-02-20T18:00:24Z",
     "open_issues": 15,
     "upstream_name": "deepbeepmeep/Wan2GP",
     "upstream_url": "https://github.com/deepbeepmeep/Wan2GP",
     "upstream_created_at": "2025-02-27T23:52:36Z",
-    "upstream_updated_at": "2026-03-01T03:56:08Z",
-    "upstream_open_issues": 673
+    "upstream_updated_at": "2026-03-08T03:57:04Z",
+    "upstream_open_issues": 686
   },
   {
     "name": "yue",
@@ -1334,14 +1334,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/bolt",
     "created_at": "2024-10-30T04:46:10Z",
-    "updated_at": "2026-01-11T08:23:24Z",
+    "updated_at": "2026-03-06T16:37:35Z",
     "pushed_at": "2025-12-06T21:59:33Z",
     "open_issues": 17,
     "upstream_name": "stackblitz-labs/bolt.diy",
     "upstream_url": "https://github.com/stackblitz-labs/bolt.diy",
     "upstream_created_at": "2024-10-13T18:40:54Z",
-    "upstream_updated_at": "2026-01-18T05:04:40Z",
-    "upstream_open_issues": 81
+    "upstream_updated_at": "2026-03-08T05:14:22Z",
+    "upstream_open_issues": 92
   },
   {
     "name": "ditto",
@@ -1362,13 +1362,13 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/cogstudio",
     "created_at": "2024-09-20T10:46:17Z",
-    "updated_at": "2026-02-18T16:48:06Z",
+    "updated_at": "2026-03-01T16:13:28Z",
     "pushed_at": "2026-01-04T00:47:22Z",
     "open_issues": 37,
     "upstream_name": "zai-org/CogVideo",
     "upstream_url": "https://github.com/zai-org/CogVideo",
     "upstream_created_at": "2022-05-29T06:46:18Z",
-    "upstream_updated_at": "2026-02-21T19:46:09Z",
+    "upstream_updated_at": "2026-03-08T06:29:40Z",
     "upstream_open_issues": 112
   },
   {
