@@ -18,7 +18,7 @@
     "description": "Welcome to Kokoro, a high-quality text-to-speech synthesis program powered by deep learning. This tool converts any text into high-fidelity speech in just a few seconds. Simply input text, select a voice, adjust the speed, and enjoy the generated audio.",
     "html_url": "https://github.com/pinokiofactory/Kokoro-TTS",
     "created_at": "2025-04-17T19:33:54Z",
-    "updated_at": "2026-04-17T16:00:19Z",
+    "updated_at": "2026-07-18T20:11:16Z",
     "pushed_at": "2026-01-05T21:23:49Z",
     "open_issues": 2,
     "upstream_name": "",
@@ -802,13 +802,13 @@
     "description": "Pinokio Installer for Applio",
     "html_url": "https://github.com/pinokiofactory/applio",
     "created_at": "2024-09-13T18:29:14Z",
-    "updated_at": "2026-05-23T20:30:07Z",
+    "updated_at": "2026-07-13T15:47:29Z",
     "pushed_at": "2026-05-23T20:30:03Z",
     "open_issues": 1,
     "upstream_name": "IAHispano/Applio",
     "upstream_url": "https://github.com/IAHispano/Applio",
     "upstream_created_at": "2023-08-07T22:42:16Z",
-    "upstream_updated_at": "2026-05-24T08:27:37Z",
+    "upstream_updated_at": "2026-07-19T05:48:36Z",
     "upstream_open_issues": 28
   },
   {
@@ -1082,14 +1082,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/wan",
     "created_at": "2025-03-03T17:32:45Z",
-    "updated_at": "2026-07-05T16:18:07Z",
+    "updated_at": "2026-07-12T21:41:06Z",
     "pushed_at": "2026-04-29T04:48:55Z",
     "open_issues": 18,
     "upstream_name": "deepbeepmeep/Wan2GP",
     "upstream_url": "https://github.com/deepbeepmeep/Wan2GP",
     "upstream_created_at": "2025-02-27T23:52:36Z",
-    "upstream_updated_at": "2026-07-12T07:42:04Z",
-    "upstream_open_issues": 973
+    "upstream_updated_at": "2026-07-19T08:20:06Z",
+    "upstream_open_issues": 981
   },
   {
     "name": "yue",
