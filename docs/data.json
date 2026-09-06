@@ -1068,14 +1068,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/wan",
     "created_at": "2025-03-03T17:32:45Z",
-    "updated_at": "2026-08-24T03:03:44Z",
+    "updated_at": "2026-09-03T13:06:32Z",
     "pushed_at": "2026-08-15T15:40:06Z",
     "open_issues": 19,
     "upstream_name": "deepbeepmeep/Wan2GP",
     "upstream_url": "https://github.com/deepbeepmeep/Wan2GP",
     "upstream_created_at": "2025-02-27T23:52:36Z",
-    "upstream_updated_at": "2026-08-30T11:26:02Z",
-    "upstream_open_issues": 1151
+    "upstream_updated_at": "2026-09-06T10:29:35Z",
+    "upstream_open_issues": 1168
   },
   {
     "name": "yue",
@@ -1194,14 +1194,14 @@
     "description": "Pinokio Installer for Whisper-Webui",
     "html_url": "https://github.com/pinokiofactory/whisper-webui",
     "created_at": "2024-09-21T20:42:20Z",
-    "updated_at": "2026-08-25T19:36:03Z",
+    "updated_at": "2026-09-05T16:10:36Z",
     "pushed_at": "2026-08-25T19:35:58Z",
     "open_issues": 6,
     "upstream_name": "jhj0517/Whisper-WebUI",
     "upstream_url": "https://github.com/jhj0517/Whisper-WebUI",
     "upstream_created_at": "2023-03-02T13:42:01Z",
-    "upstream_updated_at": "2026-08-30T08:25:53Z",
-    "upstream_open_issues": 156
+    "upstream_updated_at": "2026-09-05T21:35:10Z",
+    "upstream_open_issues": 159
   },
   {
     "name": "pyramidflow",
@@ -1236,14 +1236,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/stable-diffusion-webui-forge",
     "created_at": "2024-08-12T12:38:49Z",
-    "updated_at": "2026-05-15T18:54:36Z",
-    "pushed_at": "2026-04-28T22:51:44Z",
+    "updated_at": "2026-09-04T00:04:32Z",
+    "pushed_at": "2026-09-04T00:04:28Z",
     "open_issues": 2,
     "upstream_name": "lllyasviel/stable-diffusion-webui-forge",
     "upstream_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
     "upstream_created_at": "2024-01-14T11:39:30Z",
-    "upstream_updated_at": "2026-08-30T09:54:25Z",
-    "upstream_open_issues": 1160
+    "upstream_updated_at": "2026-09-06T10:11:47Z",
+    "upstream_open_issues": 1159
   },
   {
     "name": "omniparser",
@@ -1264,14 +1264,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/vibevoice-realtime",
     "created_at": "2025-12-04T21:57:09Z",
-    "updated_at": "2026-08-26T22:44:45Z",
-    "pushed_at": "2026-08-24T16:30:34Z",
+    "updated_at": "2026-09-03T03:45:34Z",
+    "pushed_at": "2026-09-03T03:45:30Z",
     "open_issues": 0,
     "upstream_name": "microsoft/VibeVoice",
     "upstream_url": "https://github.com/microsoft/VibeVoice",
     "upstream_created_at": "2025-08-25T13:24:01Z",
-    "upstream_updated_at": "2026-08-30T11:32:42Z",
-    "upstream_open_issues": 184
+    "upstream_updated_at": "2026-09-06T10:34:41Z",
+    "upstream_open_issues": 190
   },
   {
     "name": "dia",
@@ -1390,14 +1390,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/cogstudio",
     "created_at": "2024-09-20T10:46:17Z",
-    "updated_at": "2026-08-28T03:34:13Z",
+    "updated_at": "2026-09-05T21:47:20Z",
     "pushed_at": "2026-08-28T03:33:37Z",
     "open_issues": 39,
     "upstream_name": "zai-org/CogVideo",
     "upstream_url": "https://github.com/zai-org/CogVideo",
     "upstream_created_at": "2022-05-29T06:46:18Z",
-    "upstream_updated_at": "2026-08-30T10:17:25Z",
-    "upstream_open_issues": 117
+    "upstream_updated_at": "2026-09-06T04:54:57Z",
+    "upstream_open_issues": 118
   },
   {
     "name": "cogvideo",
