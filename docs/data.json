@@ -158,7 +158,7 @@
     "description": "A Pinokio installer for Ostris' ai-toolkit, The ultimate training toolkit for finetuning diffusion models. Main branch is [NVIDIA ONLY]",
     "html_url": "https://github.com/pinokiofactory/ai-toolkit",
     "created_at": "2025-07-26T13:41:13Z",
-    "updated_at": "2026-10-16T19:04:25Z",
+    "updated_at": "2026-10-28T18:55:14Z",
     "pushed_at": "2026-10-04T23:55:50Z",
     "open_issues": 1,
     "upstream_name": "",
@@ -662,7 +662,7 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/stable-fast-3d",
     "created_at": "2024-08-01T18:33:57Z",
-    "updated_at": "2024-08-07T20:21:37Z",
+    "updated_at": "2026-10-28T18:59:50Z",
     "pushed_at": "2024-08-01T18:34:06Z",
     "open_issues": 0,
     "upstream_name": "",
@@ -738,7 +738,7 @@
     "upstream_name": "AMAAI-Lab/Text2midi",
     "upstream_url": "https://github.com/AMAAI-Lab/Text2midi",
     "upstream_created_at": "2024-12-19T07:51:33Z",
-    "upstream_updated_at": "2026-10-23T10:49:55Z",
+    "upstream_updated_at": "2026-10-28T05:09:13Z",
     "upstream_open_issues": 2
   },
   {
@@ -780,8 +780,8 @@
     "upstream_name": "Comfy-Org/ComfyUI",
     "upstream_url": "https://github.com/Comfy-Org/ComfyUI",
     "upstream_created_at": "2023-01-17T03:15:56Z",
-    "upstream_updated_at": "2026-10-25T11:04:22Z",
-    "upstream_open_issues": 5339
+    "upstream_updated_at": "2026-11-01T12:57:41Z",
+    "upstream_open_issues": 5407
   },
   {
     "name": "audiocraft_plus",
@@ -808,7 +808,7 @@
     "upstream_name": "IAHispano/Applio",
     "upstream_url": "https://github.com/IAHispano/Applio",
     "upstream_created_at": "2023-08-07T22:42:16Z",
-    "upstream_updated_at": "2026-10-25T10:52:24Z",
+    "upstream_updated_at": "2026-11-01T07:42:47Z",
     "upstream_open_issues": 28
   },
   {
@@ -822,7 +822,7 @@
     "upstream_name": "KlingAIResearch/LivePortrait",
     "upstream_url": "https://github.com/KlingAIResearch/LivePortrait",
     "upstream_created_at": "2024-07-03T16:15:03Z",
-    "upstream_updated_at": "2026-10-25T07:56:25Z",
+    "upstream_updated_at": "2026-11-01T10:54:51Z",
     "upstream_open_issues": 292
   },
   {
@@ -850,7 +850,7 @@
     "upstream_name": "RayFernando1337/MLX-Auto-Subtitled-Video-Generator",
     "upstream_url": "https://github.com/RayFernando1337/MLX-Auto-Subtitled-Video-Generator",
     "upstream_created_at": "2024-07-30T08:44:41Z",
-    "upstream_updated_at": "2026-10-02T20:59:43Z",
+    "upstream_updated_at": "2026-10-29T16:09:13Z",
     "upstream_open_issues": 4
   },
   {
@@ -864,7 +864,7 @@
     "upstream_name": "Roblox/cube",
     "upstream_url": "https://github.com/Roblox/cube",
     "upstream_created_at": "2025-03-11T22:09:47Z",
-    "upstream_updated_at": "2026-10-23T14:10:52Z",
+    "upstream_updated_at": "2026-10-31T10:35:22Z",
     "upstream_open_issues": 35
   },
   {
@@ -878,7 +878,7 @@
     "upstream_name": "SUP3RMASS1VE/Ultimate-TTS-Studio-SUP3R-Edition",
     "upstream_url": "https://github.com/SUP3RMASS1VE/Ultimate-TTS-Studio-SUP3R-Edition",
     "upstream_created_at": "2025-06-06T14:54:06Z",
-    "upstream_updated_at": "2026-10-24T01:02:04Z",
+    "upstream_updated_at": "2026-10-28T23:53:22Z",
     "upstream_open_issues": 29
   },
   {
@@ -892,7 +892,7 @@
     "upstream_name": "Standard-Intelligence/hertz-dev",
     "upstream_url": "https://github.com/Standard-Intelligence/hertz-dev",
     "upstream_created_at": "2024-11-03T14:41:39Z",
-    "upstream_updated_at": "2026-10-25T10:54:51Z",
+    "upstream_updated_at": "2026-10-29T05:47:20Z",
     "upstream_open_issues": 16
   },
   {
@@ -906,8 +906,8 @@
     "upstream_name": "Tencent-Hunyuan/Hunyuan3D-2",
     "upstream_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
     "upstream_created_at": "2025-01-21T05:21:35Z",
-    "upstream_updated_at": "2026-10-25T07:21:22Z",
-    "upstream_open_issues": 253
+    "upstream_updated_at": "2026-11-01T12:27:14Z",
+    "upstream_open_issues": 254
   },
   {
     "name": "Hunyuan3D-2-mini",
@@ -920,8 +920,8 @@
     "upstream_name": "Tencent-Hunyuan/Hunyuan3D-2",
     "upstream_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
     "upstream_created_at": "2025-01-21T05:21:35Z",
-    "upstream_updated_at": "2026-10-25T07:21:22Z",
-    "upstream_open_issues": 253
+    "upstream_updated_at": "2026-11-01T12:27:14Z",
+    "upstream_open_issues": 254
   },
   {
     "name": "AudioX",
@@ -934,7 +934,7 @@
     "upstream_name": "ZeyueT/AudioX",
     "upstream_url": "https://github.com/ZeyueT/AudioX",
     "upstream_created_at": "2025-03-13T10:18:21Z",
-    "upstream_updated_at": "2026-10-21T04:20:37Z",
+    "upstream_updated_at": "2026-11-01T12:17:46Z",
     "upstream_open_issues": 57
   },
   {
@@ -942,13 +942,13 @@
     "description": "Enhanced background remove and replace app built around BRIA-RMBG-2.0.  Low VRAM/RAM | 6GB Install",
     "html_url": "https://github.com/pinokiofactory/RMBG-2-Studio",
     "created_at": "2024-11-15T07:13:23Z",
-    "updated_at": "2026-10-18T02:33:54Z",
+    "updated_at": "2026-10-29T02:55:10Z",
     "pushed_at": "2026-03-30T01:12:28Z",
     "open_issues": 1,
     "upstream_name": "ZhengPeng7/BiRefNet",
     "upstream_url": "https://github.com/ZhengPeng7/BiRefNet",
     "upstream_created_at": "2022-08-17T09:13:39Z",
-    "upstream_updated_at": "2026-10-25T00:21:51Z",
+    "upstream_updated_at": "2026-11-01T12:55:48Z",
     "upstream_open_issues": 33
   },
   {
@@ -962,7 +962,7 @@
     "upstream_name": "Zyphra/Zonos",
     "upstream_url": "https://github.com/Zyphra/Zonos",
     "upstream_created_at": "2025-02-07T00:32:44Z",
-    "upstream_updated_at": "2026-10-25T10:42:23Z",
+    "upstream_updated_at": "2026-10-31T11:22:29Z",
     "upstream_open_issues": 164
   },
   {
@@ -976,7 +976,7 @@
     "upstream_name": "ace-step/ACE-Step",
     "upstream_url": "https://github.com/ace-step/ACE-Step",
     "upstream_created_at": "2025-04-28T07:03:09Z",
-    "upstream_updated_at": "2026-10-25T08:50:41Z",
+    "upstream_updated_at": "2026-11-01T05:58:41Z",
     "upstream_open_issues": 156
   },
   {
@@ -990,8 +990,8 @@
     "upstream_name": "antgroup/echomimic_v2",
     "upstream_url": "https://github.com/antgroup/echomimic_v2",
     "upstream_created_at": "2024-11-20T08:35:35Z",
-    "upstream_updated_at": "2026-10-25T08:24:20Z",
-    "upstream_open_issues": 77
+    "upstream_updated_at": "2026-11-01T10:54:16Z",
+    "upstream_open_issues": 76
   },
   {
     "name": "macOS-use",
@@ -1004,7 +1004,7 @@
     "upstream_name": "browser-use/macOS-use",
     "upstream_url": "https://github.com/browser-use/macOS-use",
     "upstream_created_at": "2025-01-23T00:35:15Z",
-    "upstream_updated_at": "2026-10-24T18:15:19Z",
+    "upstream_updated_at": "2026-10-25T23:18:02Z",
     "upstream_open_issues": 16
   },
   {
@@ -1018,8 +1018,8 @@
     "upstream_name": "browser-use/web-ui",
     "upstream_url": "https://github.com/browser-use/web-ui",
     "upstream_created_at": "2025-01-02T01:29:44Z",
-    "upstream_updated_at": "2026-10-25T10:30:40Z",
-    "upstream_open_issues": 325
+    "upstream_updated_at": "2026-11-01T07:48:06Z",
+    "upstream_open_issues": 328
   },
   {
     "name": "uno",
@@ -1046,7 +1046,7 @@
     "upstream_name": "deepbeepmeep/Hunyuan3D-2GP",
     "upstream_url": "https://github.com/deepbeepmeep/Hunyuan3D-2GP",
     "upstream_created_at": "2025-01-22T01:50:03Z",
-    "upstream_updated_at": "2026-10-24T04:39:42Z",
+    "upstream_updated_at": "2026-10-31T06:59:49Z",
     "upstream_open_issues": 20
   },
   {
@@ -1060,7 +1060,7 @@
     "upstream_name": "deepbeepmeep/HunyuanVideoGP",
     "upstream_url": "https://github.com/deepbeepmeep/HunyuanVideoGP",
     "upstream_created_at": "2024-12-10T18:34:42Z",
-    "upstream_updated_at": "2026-10-22T21:46:08Z",
+    "upstream_updated_at": "2026-11-01T04:37:08Z",
     "upstream_open_issues": 13
   },
   {
@@ -1068,14 +1068,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/wan",
     "created_at": "2025-03-03T17:32:45Z",
-    "updated_at": "2026-10-23T10:52:03Z",
-    "pushed_at": "2026-10-18T01:15:34Z",
+    "updated_at": "2026-10-29T18:11:52Z",
+    "pushed_at": "2026-10-29T18:11:47Z",
     "open_issues": 20,
     "upstream_name": "deepbeepmeep/WanGP",
     "upstream_url": "https://github.com/deepbeepmeep/WanGP",
     "upstream_created_at": "2025-02-27T23:52:36Z",
-    "upstream_updated_at": "2026-10-25T11:00:00Z",
-    "upstream_open_issues": 1326
+    "upstream_updated_at": "2026-11-01T12:29:44Z",
+    "upstream_open_issues": 1351
   },
   {
     "name": "yue",
@@ -1102,8 +1102,8 @@
     "upstream_name": "deepseek-ai/Janus",
     "upstream_url": "https://github.com/deepseek-ai/Janus",
     "upstream_created_at": "2024-10-18T03:48:16Z",
-    "upstream_updated_at": "2026-10-25T07:04:58Z",
-    "upstream_open_issues": 183
+    "upstream_updated_at": "2026-11-01T09:25:02Z",
+    "upstream_open_issues": 182
   },
   {
     "name": "diamond",
@@ -1130,7 +1130,7 @@
     "upstream_name": "erew123/alltalk_tts",
     "upstream_url": "https://github.com/erew123/alltalk_tts",
     "upstream_created_at": "2023-12-08T09:35:19Z",
-    "upstream_updated_at": "2026-10-24T08:52:31Z",
+    "upstream_updated_at": "2026-10-31T14:46:53Z",
     "upstream_open_issues": 85
   },
   {
@@ -1144,7 +1144,7 @@
     "upstream_name": "etched-ai/open-oasis",
     "upstream_url": "https://github.com/etched-ai/open-oasis",
     "upstream_created_at": "2024-10-31T09:10:45Z",
-    "upstream_updated_at": "2026-10-23T18:23:02Z",
+    "upstream_updated_at": "2026-10-29T12:34:51Z",
     "upstream_open_issues": 35
   },
   {
@@ -1158,7 +1158,7 @@
     "upstream_name": "fishaudio/fish-speech",
     "upstream_url": "https://github.com/fishaudio/fish-speech",
     "upstream_created_at": "2023-10-10T03:16:51Z",
-    "upstream_updated_at": "2026-10-25T10:18:38Z",
+    "upstream_updated_at": "2026-11-01T12:58:59Z",
     "upstream_open_issues": 25
   },
   {
@@ -1172,7 +1172,7 @@
     "upstream_name": "genmoai/mochi",
     "upstream_url": "https://github.com/genmoai/mochi",
     "upstream_created_at": "2024-09-11T02:55:33Z",
-    "upstream_updated_at": "2026-10-25T09:08:51Z",
+    "upstream_updated_at": "2026-11-01T06:44:29Z",
     "upstream_open_issues": 61
   },
   {
@@ -1186,7 +1186,7 @@
     "upstream_name": "instantX-research/InstantIR",
     "upstream_url": "https://github.com/instantX-research/InstantIR",
     "upstream_created_at": "2024-10-20T03:17:01Z",
-    "upstream_updated_at": "2026-09-29T03:28:54Z",
+    "upstream_updated_at": "2026-10-25T23:16:48Z",
     "upstream_open_issues": 8
   },
   {
@@ -1200,8 +1200,8 @@
     "upstream_name": "jhj0517/Whisper-WebUI",
     "upstream_url": "https://github.com/jhj0517/Whisper-WebUI",
     "upstream_created_at": "2023-03-02T13:42:01Z",
-    "upstream_updated_at": "2026-10-25T07:46:06Z",
-    "upstream_open_issues": 158
+    "upstream_updated_at": "2026-10-31T17:04:07Z",
+    "upstream_open_issues": 157
   },
   {
     "name": "pyramidflow",
@@ -1214,7 +1214,7 @@
     "upstream_name": "jy0205/Pyramid-Flow",
     "upstream_url": "https://github.com/jy0205/Pyramid-Flow",
     "upstream_created_at": "2024-10-06T13:06:31Z",
-    "upstream_updated_at": "2026-10-25T06:33:31Z",
+    "upstream_updated_at": "2026-11-01T12:15:08Z",
     "upstream_open_issues": 73
   },
   {
@@ -1228,8 +1228,8 @@
     "upstream_name": "lllyasviel/FramePack",
     "upstream_url": "https://github.com/lllyasviel/FramePack",
     "upstream_created_at": "2025-04-12T14:45:22Z",
-    "upstream_updated_at": "2026-10-25T10:29:34Z",
-    "upstream_open_issues": 497
+    "upstream_updated_at": "2026-11-01T11:40:10Z",
+    "upstream_open_issues": 496
   },
   {
     "name": "stable-diffusion-webui-forge",
@@ -1242,8 +1242,8 @@
     "upstream_name": "lllyasviel/stable-diffusion-webui-forge",
     "upstream_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
     "upstream_created_at": "2024-01-14T11:39:30Z",
-    "upstream_updated_at": "2026-10-25T11:01:40Z",
-    "upstream_open_issues": 1162
+    "upstream_updated_at": "2026-11-01T06:18:50Z",
+    "upstream_open_issues": 1164
   },
   {
     "name": "omniparser",
@@ -1256,7 +1256,7 @@
     "upstream_name": "microsoft/OmniParser",
     "upstream_url": "https://github.com/microsoft/OmniParser",
     "upstream_created_at": "2024-09-20T05:18:18Z",
-    "upstream_updated_at": "2026-10-25T10:00:59Z",
+    "upstream_updated_at": "2026-11-01T02:19:24Z",
     "upstream_open_issues": 232
   },
   {
@@ -1270,8 +1270,8 @@
     "upstream_name": "microsoft/VibeVoice",
     "upstream_url": "https://github.com/microsoft/VibeVoice",
     "upstream_created_at": "2025-08-25T13:24:01Z",
-    "upstream_updated_at": "2026-10-25T10:40:52Z",
-    "upstream_open_issues": 201
+    "upstream_updated_at": "2026-11-01T12:31:37Z",
+    "upstream_open_issues": 203
   },
   {
     "name": "dia",
@@ -1284,7 +1284,7 @@
     "upstream_name": "nari-labs/dia",
     "upstream_url": "https://github.com/nari-labs/dia",
     "upstream_created_at": "2025-04-19T07:15:57Z",
-    "upstream_updated_at": "2026-10-25T08:03:43Z",
+    "upstream_updated_at": "2026-11-01T10:11:58Z",
     "upstream_open_issues": 91
   },
   {
@@ -1298,7 +1298,7 @@
     "upstream_name": "philz1337x/clarity-upscaler",
     "upstream_url": "https://github.com/philz1337x/clarity-upscaler",
     "upstream_created_at": "2024-03-15T15:21:40Z",
-    "upstream_updated_at": "2026-10-25T08:55:39Z",
+    "upstream_updated_at": "2026-10-31T16:55:00Z",
     "upstream_open_issues": 18
   },
   {
@@ -1312,7 +1312,7 @@
     "upstream_name": "rhymes-ai/Allegro",
     "upstream_url": "https://github.com/rhymes-ai/Allegro",
     "upstream_created_at": "2024-10-16T04:04:15Z",
-    "upstream_updated_at": "2026-09-30T12:33:03Z",
+    "upstream_updated_at": "2026-10-30T05:51:48Z",
     "upstream_open_issues": 20
   },
   {
@@ -1326,7 +1326,7 @@
     "upstream_name": "rhymes-ai/Allegro",
     "upstream_url": "https://github.com/rhymes-ai/Allegro",
     "upstream_created_at": "2024-10-16T04:04:15Z",
-    "upstream_updated_at": "2026-09-30T12:33:03Z",
+    "upstream_updated_at": "2026-10-30T05:51:48Z",
     "upstream_open_issues": 20
   },
   {
@@ -1340,8 +1340,8 @@
     "upstream_name": "robbyant-research/MagicQuill",
     "upstream_url": "https://github.com/robbyant-research/MagicQuill",
     "upstream_created_at": "2024-11-12T12:52:36Z",
-    "upstream_updated_at": "2026-10-22T08:17:28Z",
-    "upstream_open_issues": 47
+    "upstream_updated_at": "2026-10-30T05:53:58Z",
+    "upstream_open_issues": 48
   },
   {
     "name": "RuinedFooocus",
@@ -1354,7 +1354,7 @@
     "upstream_name": "runew0lf/RuinedFooocus",
     "upstream_url": "https://github.com/runew0lf/RuinedFooocus",
     "upstream_created_at": "2023-08-16T09:20:46Z",
-    "upstream_updated_at": "2026-10-23T10:56:38Z",
+    "upstream_updated_at": "2026-10-31T22:51:55Z",
     "upstream_open_issues": 27
   },
   {
@@ -1362,14 +1362,14 @@
     "description": "",
     "html_url": "https://github.com/pinokiofactory/bolt",
     "created_at": "2024-10-30T04:46:10Z",
-    "updated_at": "2026-07-07T18:05:47Z",
-    "pushed_at": "2025-12-06T21:59:33Z",
+    "updated_at": "2026-10-29T01:10:31Z",
+    "pushed_at": "2026-10-29T01:10:27Z",
     "open_issues": 17,
     "upstream_name": "stackblitz-labs/bolt.diy",
     "upstream_url": "https://github.com/stackblitz-labs/bolt.diy",
     "upstream_created_at": "2024-10-13T18:40:54Z",
-    "upstream_updated_at": "2026-10-25T09:45:40Z",
-    "upstream_open_issues": 21
+    "upstream_updated_at": "2026-11-01T10:49:01Z",
+    "upstream_open_issues": 23
   },
   {
     "name": "ditto",
@@ -1382,7 +1382,7 @@
     "upstream_name": "yoheinakajima/ditto",
     "upstream_url": "https://github.com/yoheinakajima/ditto",
     "upstream_created_at": "2024-10-15T19:45:13Z",
-    "upstream_updated_at": "2026-10-18T02:57:15Z",
+    "upstream_updated_at": "2026-10-28T14:29:17Z",
     "upstream_open_issues": 9
   },
   {
@@ -1396,7 +1396,7 @@
     "upstream_name": "zai-org/CogVideo",
     "upstream_url": "https://github.com/zai-org/CogVideo",
     "upstream_created_at": "2022-05-29T06:46:18Z",
-    "upstream_updated_at": "2026-10-25T07:29:40Z",
+    "upstream_updated_at": "2026-11-01T06:44:37Z",
     "upstream_open_issues": 115
   },
   {
@@ -1410,7 +1410,7 @@
     "upstream_name": "zai-org/CogVideo",
     "upstream_url": "https://github.com/zai-org/CogVideo",
     "upstream_created_at": "2022-05-29T06:46:18Z",
-    "upstream_updated_at": "2026-10-25T07:29:40Z",
+    "upstream_updated_at": "2026-11-01T06:44:37Z",
     "upstream_open_issues": 115
   }
 ]
